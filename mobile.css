@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200;400&display=swap"); /* h4 text */
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@600;700&display=swap"); /* h1 text */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,500&display=swap"); /* sec1-p2 */
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .header {
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/129/883/652/headphones-yellow-background-music-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  .head-h4 {
+    font-family: "Barlow", sans-serif;
+    font-size: small;
+    padding-top: 10%;
+    margin-left: 5%;
+    text-align: left;
+  }
+  .header h1 {
+    text-align: left;
+    font-family: "Arimo", sans-serif;
+    font-size: large;
+    margin-left: 5%;
+    padding-bottom: 5%;
+  }
+  .header-btn {
+    padding-bottom: 35px;
+  }
+  .header-btn button {
+    padding: 5px 15px 5px 15px;
+    border-radius: 15px;
+    color: black;
+    background-color: white;
+    border-color: #fff;
+    margin-left: 5%;
+  }
+
+  .sec1-p1 {
+    font-size: 20px;
+    width: auto;
+    font-weight: normal;
+  }
+  .sec1-p2 {
+    font-family: "Poppins", sans-serif;
+    line-height: 18px;
+    font-size: small;
+  }
+  .seaction2 {
+    background-color: #fac769;
+    padding: 5px;
+  }
+
+  .sec2-h2 {
+    color: white;
+    text-align: center;
+    font-family: "Arimo", sans-serif;
+  }
+  .sec2-p1 {
+    font-size: 20px;
+  }
+  .seaction3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 75%;
+    margin: auto;
+  }
+
+  .card2,
+  .card3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: auto;
+    padding-top: 50px;
+  }
+
+  .card-img0 {
+    width: 100%;
+    height: 100%;
+  }
+  .sec3-card1,
+  .sec3-card2,
+  .sec3-card3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec3-para {
+    padding: 1px 8px;
+    background-color: #fac769;
+    padding-top: -5px;
+  }
+  .sec3-para p {
+    font-style: normal;
+    color: #fff;
+  }
+
+  .crd-pro1,
+  .crd-pro2 {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+  }
+  .crd-pro-pic {
+    padding-top: 10px;
+  }
+  .seaction5 {
+    margin-top: 15px;
+    background-color: #fac769;
+    padding: 10px;
+  }
+  .sec5-p5 {
+    color: white;
+  }
+  .sec5-h5 {
+    color: #fff;
+    font-family: "Arimo", sans-serif;
+  }
+  .sec5-btn button {
+    padding: 5px 15px 5px 15px;
+    border-radius: 15px;
+    color: black;
+    background-color: white;
+    border-color: #fff;
+  }
+  .sec6-head {
+    text-align: center;
+    font-family: "Barlow", sans-serif;
+    font-size: 15px;
+  }
+}
